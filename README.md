@@ -49,10 +49,10 @@ This repository serves as a record of that learning process.
 ### 01 - Hello Window
 **Learned Concepts**
 
--How to initiate a window
--Diference between GLFW, OpenGL and GLAD
--How render loops are created and for what
--Frame Buffer Size Callbacks
+- How to initiate a window
+- Diference between GLFW, OpenGL and GLAD
+- How render loops are created and for what
+- Frame Buffer Size Callbacks
 
 ### Result
 ![Hello Window](images/hellowindow.png)
