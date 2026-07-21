@@ -25,7 +25,7 @@ This repository serves as a record of that learning process.
 
 ### Basic OpenGL
 
-- [ ] Creating a Window
+- [x] Creating a Window
 - [ ] Rendering a Triangle
 - [ ] Shaders
 - [ ] Textures
@@ -44,6 +44,24 @@ This repository serves as a record of that learning process.
 - [ ] Advanced Lighting
 
 ---
+
+## Chapter Notes
+### 01 - Hello Window
+**Learned Concepts**
+
+- How to initiate a window
+- Diference between GLFW, OpenGL and GLAD
+- How render loops are created and for what
+- Frame Buffer Size Callbacks
+
+### Result
+![Hello Window](images/hellowindow.png)
+
+
+### 02 - Hello Triangle
+**Learned Concepts**
+
+-
 
 ## Resources
 
