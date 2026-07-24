@@ -26,7 +26,7 @@ This repository serves as a record of that learning process.
 ### Basic OpenGL
 
 - [x] Creating a Window
-- [ ] Rendering a Triangle
+- [x] Rendering a Triangle
 - [ ] Shaders
 - [ ] Textures
 - [ ] Camera
@@ -59,9 +59,21 @@ This repository serves as a record of that learning process.
 
 
 ### 02 - Hello Triangle
+This Chapter has been an essential path to understand how a graphical pipeline works. The wokflow a GPU
+has to endure to generate such a simple thing as a triangle or any figure (all triangles)
 **Learned Concepts**
+-Grpahics pipeline parts
+-Concept of vertex / vertex data
+-Introduction to shaders
+-Simple GLSL (Vertex / fragment shader)
+-Shader Program and linking vertex attributes
+-Implementation and understanding of VBO and VAO
+-Creation of advanced figures with EBO
 
--
+### Result
+![Hello Triangle](images/hellotriangle-triangle.png)
+
+
 
 ## Resources
 
