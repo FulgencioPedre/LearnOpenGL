@@ -62,16 +62,17 @@ This repository serves as a record of that learning process.
 This Chapter has been an essential path to understand how a graphical pipeline works. The wokflow a GPU
 has to endure to generate such a simple thing as a triangle or any figure (all triangles)
 **Learned Concepts**
--Grpahics pipeline parts
--Concept of vertex / vertex data
--Introduction to shaders
--Simple GLSL (Vertex / fragment shader)
--Shader Program and linking vertex attributes
--Implementation and understanding of VBO and VAO
--Creation of advanced figures with EBO
+- Grpahics pipeline parts
+- Concept of vertex / vertex data
+- Introduction to shaders
+- Simple GLSL (Vertex / fragment shader)
+- Shader Program and linking vertex attributes
+- Implementation and understanding of VBO and VAO
+- Creation of advanced figures with EBO
 
 ### Result
 ![Hello Triangle](images/hellotriangle-triangle.png)
+**This example use glPolygonMode(GL_FRONT_AND_BACK, GL_LINE) this way we could visualize how OpenGL works with triangles** 
 
 
 
