@@ -53,12 +53,14 @@ int main() {
 		0.5f, 0.5f, 0.0f,
 		0.5f, -0.5f, 0.0f,
 		-0.5f, -0.5f, 0.0f,
-		-0.5f, 0.5f, 0.0f
+		-0.5f, 0.5f, 0.0f,
+		0.6f, 0.3f, 0.0f
 	};
 
 	unsigned int indices[] = {
 		0, 1, 3,
-		1, 2, 3
+		1, 2, 3,
+		0, 2, 4
 	};
 	
 	
@@ -157,7 +159,7 @@ int main() {
 		glClearColor(0.3f, 0.5f, 0.7f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 		
-		glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+		glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 
 		glBindVertexArray(VAO);
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
